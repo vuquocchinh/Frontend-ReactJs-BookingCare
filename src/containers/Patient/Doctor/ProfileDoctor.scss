@@ -1,0 +1,40 @@
+.profile-doctor-container {
+    .intro-doctor {
+        display: flex;
+
+        .content-left {
+            background     : center center no-repeat;
+            background-size: cover;
+            height         : 90px;
+            width          : 90px;
+            border-radius  : 50%;
+        }
+
+        .content-right {
+            width         : calc(100% - 90px);
+            display       : flex;
+            flex-direction: column;
+            padding-left  : 10px;
+
+            .up {
+                font-weight: 600;
+
+            }
+
+            .down {
+                text-align: justify;
+            }
+        }
+
+
+    }
+
+    .price {
+        margin: 10px 0;
+
+        .currency {
+            padding    : 0 5px;
+            font-weight: 600;
+        }
+    }
+}

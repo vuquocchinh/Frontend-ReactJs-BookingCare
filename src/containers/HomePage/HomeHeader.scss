@@ -1,0 +1,201 @@
+.home-header-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    position        : sticky;
+    top             : 0;
+    z-index         : 100;
+
+    .home-header-content {
+        display: flex;
+        height : 60px;
+        padding: 0 190px;
+
+
+        .left-content {
+            width        : 25%;
+            display      : flex;
+            align-items  : center;
+            cursor       : pointer;
+            padding-right: 30px;
+
+            .header-logo {
+                //  background     : url('../../assets/logo.svg') center center no-repeat;
+                background     : url('https://bookingcare.vn/assets/icon/bookingcare-2020.svg') center center no-repeat;
+                height         : 40px;
+                width          : 160px;
+                text-decoration: none;
+
+            }
+
+            i {
+                font-size    : 25px;
+                font-weight  : 400px;
+                color        : gray;
+                padding-right: 10px;
+            }
+        }
+
+        .center-content {
+            width          : 50%;
+            display        : flex;
+            justify-content: space-between;
+            align-items    : center;
+            cursor         : pointer;
+
+            .child-content {
+
+                .sub-title {
+                    font-size: 10px;
+                }
+            }
+        }
+
+        .right-content {
+            width          : 25%;
+            display        : flex;
+            justify-content: center;
+            align-items    : center;
+            font-size      : 14px;
+            cursor         : pointer;
+
+            .support {
+                text-align : center;
+                font-weight: 600;
+                color      : #45C3D2;
+
+
+            }
+
+            .language-vi {
+                margin     : 0 10px 0 20px;
+                color      : rgb(154, 153, 153);
+                font-weight: 500;
+
+                &.active {
+                    color      : #45C3D2;
+                    font-weight: 600;
+                }
+            }
+
+            .language-en {
+                margin-left: 10px;
+                color      : rgb(154, 153, 153);
+
+                &.active {
+                    color      : #45C3D2;
+                    font-weight: 600;
+                }
+            }
+
+
+        }
+    }
+}
+
+//
+.home-header-banner {
+    height             : 500px;
+    background-image   : url('../../assets/banner.jpg');
+    background-color   : rgba(0, 0, 0, 0.4);
+    background-repeat  : no-repeat;
+    background-position: center;
+    background-size    : cover;
+
+    .home-header__up {
+        width           : 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(255, 255, 255, 0.1));
+        padding-top     : 10px;
+        height          : 70%;
+        display         : flex;
+        flex-direction  : column;
+        text-align      : center;
+        justify-content : center;
+        align-items     : center;
+
+        .title1 {
+            font-size  : 32px;
+            color      : #fff;
+            text-shadow: 1px 1px 1px #333;
+        }
+
+        .title2 {
+            font-size  : 32px;
+            color      : #fff;
+            text-shadow: 1px 1px 1px #333;
+        }
+
+        .home-header__search {
+            width           : 500px;
+            background-color: #45C3D2;
+            margin          : 0 30px;
+            display         : flex;
+            text-align      : center;
+            align-items     : center;
+            justify-content : center;
+            border-radius   : 30px;
+            margin-top      : 30px;
+
+            input {
+                height          : 50px;
+                width           : 100%;
+                background-color: transparent;
+                padding         : 10px;
+                border          : none;
+                outline         : none;
+                color           : #fff;
+                font-size       : 14px;
+            }
+
+            i {
+                color       : #fff;
+                font-size   : 16px;
+                padding-left: 15px;
+            }
+
+
+        }
+    }
+
+    .home-header__down {
+        width           : 100%;
+        height          : 30%;
+        padding         : 0 50px;
+        padding-bottom  : 30px;
+        display         : flex;
+        align-items     : flex-end;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1));
+
+        .home-header__options {
+            width        : 100%;
+            display      : flex;
+            padding      : 10px;
+            border-radius: 5px;
+
+
+            .option-child {
+                width     : 12.5%;
+                text-align: center;
+                cursor    : pointer;
+
+                .icon-child {
+                    height: 50px;
+
+
+                    i {
+                        background-color: #fff;
+                        padding         : 10px;
+                        border-radius   : 50%;
+                        color           : #45C3D2;
+                        font-size       : 30px;
+                        box-shadow      : 0 0 4px 0 #aaaaaa;
+                    }
+                }
+
+                .text-child {
+                    color    : #000;
+                    font-size: 16px;
+                }
+            }
+
+        }
+    }
+}

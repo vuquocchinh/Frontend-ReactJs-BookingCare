@@ -1,0 +1,108 @@
+.footer-container {
+    height          : 380px;
+    padding         : 35px 185px;
+    display         : flex;
+    gap             : 10px;
+    background-color: #EFEFEF;
+
+    p {
+        font-size: 13px;
+    }
+
+    .footer-company-info {
+        width: 50%;
+
+
+        .footer-logo {
+            //background: url('../../assets/logo.svg') center center no-repeat;
+            background: url('https://bookingcare.vn/assets/icon/bookingcare-2020.svg') center center no-repeat;
+            height    : 70px;
+            width     : 200px;
+            cursor    : pointer;
+        }
+
+        .footer-info {
+
+            i {
+                margin-right: 5px;
+                color       : #45C4DD;
+            }
+
+        }
+    }
+
+    .footer-company-hotline {
+        width: 25%;
+
+        li {
+            list-style: none;
+            padding   : 8px 0;
+
+            a {
+                text-decoration: none;
+                color          : #45C4DD;
+            }
+
+            &:hover {
+                opacity: 0.6;
+            }
+        }
+    }
+
+    .footer-company-address {
+        width: 25%;
+
+        span {
+            cursor: pointer;
+            color : #45C4DD;
+        }
+    }
+
+}
+
+.end-footer {
+    background-color: #45C4DD;
+
+    height: 80px;
+    width : 100%;
+
+    .footer-copy {
+        width          : 100%;
+        padding        : 10px 185px;
+        display        : flex;
+        align-items    : center;
+        justify-content: space-between;
+
+        p {
+            color: white;
+        }
+
+        .social {
+            display: flex;
+            gap    : 15px;
+            cursor : pointer;
+
+            .fb {
+                background-image   : url('https://bookingcare.vn/themes/app1912/assets/img/social/facebook-square.svg');
+                height             : 35px;
+                width              : 35px;
+                background-position: center center;
+                background-repeat  : no-repeat;
+                background-size    : cover;
+                border-radius      : 3px;
+            }
+
+            .ytb {
+                background-image   : url('https://bookingcare.vn/themes/app1912/assets/img/social/youtube-square.svg');
+                height             : 35px;
+                width              : 35px;
+                background-position: center center;
+                background-repeat  : no-repeat;
+                background-size    : cover;
+                border-radius      : 3px;
+            }
+        }
+    }
+
+
+}

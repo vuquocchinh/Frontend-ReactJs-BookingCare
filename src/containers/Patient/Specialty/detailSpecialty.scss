@@ -1,0 +1,81 @@
+.detail-specialty-container {
+
+    .description-specialty {
+        background-color: white !important;
+        padding         : 10px 0;
+        margin          : 15px 0;
+        border-top      : 1px solid #ddd;
+
+        h1,
+        h2,
+        h3 {
+            font-size  : 19px;
+            font-weight: 600;
+        }
+
+    }
+
+    .search-sp-doctor {
+        select {
+            height       : 30px;
+            padding      : 5px 8px;
+            border       : none;
+            outline      : none;
+            border-radius: 5px;
+            cursor       : pointer;
+            box-shadow   : 0 1px 6px #20212447;
+        }
+    }
+
+    .detail-specialty-body {
+        margin        : 0 200px;
+        display       : flex;
+        flex-direction: column;
+
+
+    }
+
+    .each-doctor {
+        display         : flex;
+        width           : 100%;
+        min-height      : 300px;
+        margin          : 15px 0;
+        padding         : 10px;
+        background-color: #fff;
+        box-shadow      : 0 1px 6px #20212447;
+        border-radius   : 8px;
+
+        .dt-content-left {
+            width        : 50%;
+            border-radius: 1px solid #ddd;
+
+            .profile-doctor-container {
+                .down {
+                    padding-right: 5px;
+                }
+            }
+        }
+
+        .dt-content-right {
+            width  : 50%;
+            padding: 10px;
+
+            .doctor-schedule {
+                .doctor-schedule-container {
+                    border-radius: unset !important;
+                    border-right : none !important;
+                }
+            }
+
+            .doctor-extra-infor {
+                border-top : 1px solid #ddd;
+                margin-top : 10px;
+                padding-top: 10px;
+
+                .doctor-extra-infor-container {
+                    padding-left: 0 !important;
+                }
+            }
+        }
+    }
+}

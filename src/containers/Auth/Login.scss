@@ -1,0 +1,141 @@
+.login-background {
+    display: flex;
+    height: 100vh;
+    background-image: linear-gradient(to right, #62DBE0, #8E5EEA);
+
+    .login-container {
+        height: auto;
+        width: 400px;
+        background-color: #fff;
+        margin: auto;
+        border-radius: 10px;
+
+        .login-content {
+
+            padding: 15px;
+
+            .text-login {
+                font-size: 20px;
+                font-weight: 700;
+                width: 100%;
+
+
+            }
+
+            .login-input {
+                font-size: 14px;
+                margin-top: 10px;
+
+                outline: none;
+
+                .label-name {
+                    font-size: 12px;
+                }
+
+                .input-list {
+
+                    position: relative;
+
+                    .input-item {
+                        border: none;
+                        border-bottom: 2px solid #d1d0d0;
+                        border-radius: 0;
+                        padding-left: 20px;
+
+                    }
+
+                    .input-item:focus {
+                        outline: none;
+                    }
+
+                    .input-icon {
+                        position: absolute;
+                        top: 7px;
+                        left: 2px;
+                        color: #A5ABB0;
+                    }
+
+                    .icon-eye {
+                        position: absolute;
+                        top: 8px;
+                        right: 4px;
+                        cursor: pointer;
+                    }
+                }
+
+
+            }
+
+            .btn-login {
+                width: 100%;
+                border-radius: 30px;
+                height: 35px;
+                border: none;
+                background-image: linear-gradient(to right, #62DBE0, #8E5EEA);
+                text-transform: uppercase;
+                color: #fff;
+                font-weight: 500;
+                font-size: 14px;
+            }
+
+            .forgot-password {
+                font-size: 12px;
+                text-decoration: none;
+                color: #000;
+            }
+
+            .text-other-login {
+                font-size: 12px;
+            }
+
+            .social-login {
+                display: flex;
+                justify-content: center;
+                height: 33px;
+
+                .facebook {
+                    font-size: 15px;
+                    margin-right: 5px;
+                    border-radius: 50%;
+                    background-color: #445791;
+                    width: 35px;
+                    color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                }
+
+                .google {
+                    font-size: 15px;
+                    background-color: red;
+                    border-radius: 50%;
+                    width: 35px;
+                    color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                }
+            }
+
+            .sign-up {
+                font-size: 12px;
+                margin-top: 25px;
+
+                .singUp-new {
+                    text-decoration: none;
+                    color: #000;
+                    margin-top: 10px;
+                    font-size: 12px;
+                    font-weight: 600;
+                }
+            }
+
+
+        }
+
+
+
+    }
+}
